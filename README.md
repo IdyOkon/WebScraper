@@ -125,3 +125,10 @@ Web scraping should always be done responsibly and in compliance with the websit
 Additionally, keep in mind that scraping large amounts of data or scraping too frequently from a website can put strain on the site's resources and may result in IP bans or legal action. Please use WebScraper responsibly and ethically.
 
 The maintainers of this repository are not responsible for any misuse or legal consequences arising from the use of WebScraper. Users are encouraged to familiarize themselves with web scraping best practices and legal guidelines before using this tool.
+
+## Deployment Architecture (My Contribution)
+
+- Application runs on Linux EC2 instances  
+- Deployed across multiple Availability Zones (A & B)  
+- A Load Balancer distributes traffic across instances  
+- Resources are tagged for billing and cost tracking  
