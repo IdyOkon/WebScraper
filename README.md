@@ -69,7 +69,8 @@ Make sure you have the following prerequisites installed:
 ## Entry Point
 
 Run the scraper using:
-``bash
+
+```bash
 python webscraper.py <website_url>
 ```
  
