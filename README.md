@@ -45,12 +45,34 @@ Make sure you have the following prerequisites installed:
    cd WebScraper
    ```
 
-3. Install the required Python dependencies:
+3. Create Virtual Environment
+   
+   ```bash
+   python3 -m venv venv
+   ```
+4. Activate the Environment
+   
+   ```bash
+   source venv/bin/activate   (Mac/Linux)
+   ```
+   
+   ```bash
+    venv\Scripts\activate     (Windows)
+   ```
+   
+5. Install the required Python dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
+   
+## Entry Point
 
+Run the scraper using:
+``bash
+python webscraper.py <website_url>
+```
+ 
 Now, you're ready to start using WebScraper!
 
 #### Docker Installation
